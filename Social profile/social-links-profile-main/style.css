@@ -1,0 +1,59 @@
+@import url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+
+body{
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 8%);
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main{
+    text-align: center;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    padding:22px 28px;
+    
+    
+}
+.image-section img{
+    width:60px;
+    border-radius: 50%;
+}
+.image-section h1{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.image-section h2{
+    color: hsl(75, 94%, 57%);
+    font-size: 12px;
+}
+.para{
+    color: rgba(255,255,255,0.723);
+    font-size: 12px;
+    margin: 18px;
+}
+.social-links button{
+    background-color: hsl(0, 0%, 20%);
+    color:rgba(255,255,255,0.723);
+    width:100%;
+    font-size:12px;
+    padding:12px 50px;
+    border: 0px;
+    border-radius: 6px;
+    font-weight: 700;
+    margin:6px 0px;
+
+}
+button:hover{
+    background: transparent;
+    border:1px solid rgba(255,255,255,0.723);
+    transition: all 0.2s ease-in-out;
+    cursor:pointer;
+    color: hsl(75, 94%, 57%);
+}
+
+
